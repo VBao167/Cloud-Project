@@ -17,7 +17,6 @@ Thay vì mất thời gian cấu hình server thủ công, hệ thống giúp t�
 
 * **User Authentication:** Hệ thống Đăng ký/Đăng nhập bảo mật.
 * **Dashboard:** Giao diện quản lý tập trung danh sách các Database.
-* **Auto Provisioning:** Tự động gọi API AWS để khởi tạo RDS MySQL Instance.
 * **Real-time Status:** Cập nhật trạng thái khởi tạo (Creating, Available, Failed).
 * **High Security Architecture:** Mô hình triển khai chuẩn Cloud với VPC, Private Subnet.
 
@@ -49,7 +48,6 @@ Hệ thống được thiết kế theo mô hình **VPC 2 lớp (Public - Privat
 ### 3. Công cụ quản trị (Tools)
 * **MySQL Workbench:** Công cụ kết nối và quản trị Database (qua SSH Tunnel).
 * **Git/GitHub:** Quản lý phiên bản mã nguồn.
-* **Boto3:** Thư viện AWS SDK for Python để code backend tương tác với AWS API (tạo/xóa DB).
 
 ## ⚙️ Cài đặt & Chạy thử (Installation)
 
